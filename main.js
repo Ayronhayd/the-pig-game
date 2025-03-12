@@ -14,9 +14,9 @@ score1Element.textContent = 0;
 diceElement.classList.add('hidden');
 
 const wondowScore = 100;
+let totalScores = [0, 0];
 let currentScore = 0;
 let activePlayer = 0;
-let totalScores = [0, 0];
 let isPlaying = true;
 
 const switchActivePlayer = function () {
